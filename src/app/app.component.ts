@@ -12,9 +12,6 @@ export class AppComponent {
   // @ViewChild("usefulSwiper", { static: false }) usefulSwiper: SwiperComponent;
 
   slides = [
-    // "https://via.placeholder.com/300x200/FF5733/ffffff",
-    // "https://via.placeholder.com/300x200/C70039/ffffff",
-    // "https://via.placeholder.com/300x200/900C3F/ffffff"
     { img: "../assets/miki/miki1.jpg" },
     { img: "../assets/miki/miki2.jpg" },
     { img: "../assets/miki/miki3.jpg" },
@@ -36,10 +33,6 @@ export class AppComponent {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
     },
-    spaceBetween: 30 // Space between each Item,
+    spaceBetween: 30
   };
-
-  // next() {
-  //   this.usefulSwiper.swiper.slideNext();
-  // }
 }
